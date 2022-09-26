@@ -1,0 +1,61 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #48392f;}
+
+/* 탭메뉴 꾸미기 */
+.tab{
+  width:1065px; 
+  overflow: hidden;
+}
+.tabnav{
+  width:100%; 
+  overflow: hidden;
+}
+.tabnav li{
+  float: left;
+  width: 33.33%;
+}
+.tabnav li a{ 
+  display: block;
+  text-align: center;
+  padding: 10px 40px;
+  background-color: #dedbd9;
+  opacity: 0.8;
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: bold;
+  color: #48392f;
+}
+
+/* 탭메뉴 클릭했을 때 변화 꾸미기 */
+.tabnav li .active{
+  background-color:#d2bdad;
+  color: #48392f;
+}
+.tabnav li a:hover,
+.tabnav li a.active{
+  background-color: #d2bdad;
+  color: #48392f;
+}
+
+/* 탭컨테츠 꾸미기 */
+.tabcontent{
+  position: relative;
+  top: 100px;
+}
+#tab01{
+  text-align: center;
+  height: 8500px;
+  padding: 20px;
+}
+#tab02{
+  background-color: #fff;
+  height: 300px;
+  padding: 20px;
+}
+#tab03{
+  background-color: #fff;
+  height: 300px;
+  padding: 20px;
+}
