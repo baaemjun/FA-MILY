@@ -144,9 +144,15 @@ h1{
     width: 330px;
 }
 #box3{
-    width: 1920px;
+    position: relative;
+    width: 1320px;
     margin: auto;
     margin-top: 150px;
+    height: 745px;
+}
+#box3 img{
+    position: absolute;
+    left: -303px;
 }
 #box4{
     width: 1320px;
